@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/googleapis/python-bigquery/commit/ca965f25fa3df5915d8763d277bb014a3de124cd",
       "git:hexsha": "ca965f25fa3df5915d8763d277bb014a3de124cd",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-06T06:46:11.145510+00:00"
     },
     {
       "@id": "https://repolex.ai/r/googleapis/python-bigquery/commit/8634630fca32ae38ce6b4ef27679bb7444be59c6",
