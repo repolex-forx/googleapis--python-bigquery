@@ -1,0 +1,11 @@
+{
+  "org": "googleapis",
+  "repo": "python-bigquery",
+  "versions": [
+    {
+      "commit": "ca965f25fa3df5915d8763d277bb014a3de124cd",
+      "tag": "",
+      "parsed_at": "2026-11-06T06:46:11.146710+00:00"
+    }
+  ]
+}
