@@ -1,0 +1,116 @@
+[2026-11-22T04:52:50Z] === ENRICH ITERATION 1 START | repo=googleapis/python-bigquery sha=e8184fa3 ===
+[2026-11-22T04:52:50Z] [iter=1] PHASE START: enrich repo=googleapis/python-bigquery sha=e8184fa3 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/e8184fa3-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/e8184fa38563b8e9aef265ec64836a931e9e89cd.nq.gz
+[2026-11-22T04:53:15Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T04:54:00Z] [iter=1] AST store loaded triples=3866958 load_secs=44 mem_mb=956 MB
+[2026-11-22T04:54:00Z] [iter=1] Step 2: Finding LSP targets mem_mb=956 MB
+[2026-11-22T04:54:09Z] [iter=1] LSP targets found call_sites=24998 imports=2970 extends=156 implements=0 secs=10
+[2026-11-22T04:54:17Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=956 MB
+[2026-11-22T04:54:36Z] [iter=1] Position index built positions=271599 nodes_with_types=352263 secs=18 mem_mb=956 MB
+[2026-11-22T04:54:36Z] [iter=1] Step 3: Starting LSP resolution mem_mb=956 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T04:54:36Z] [iter=1] Resolving target type target_type=call_site count=24998
+[2026-11-22T04:54:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.8 files_done=0 resolved=0 errors=0 current=samples/load_table_uri_truncate_avro.py
+[2026-11-22T04:56:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=3 resolved=200 errors=0 current=tests/unit/test__pandas_helpers.py
+[2026-11-22T05:01:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.4 files_done=4 resolved=603 errors=0 current=tests/unit/test_schema.py
+[2026-11-22T05:06:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.9 files_done=5 resolved=1072 errors=0 current=tests/system/test_client.py
+[2026-11-22T05:21:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.4 files_done=6 resolved=2273 errors=0 current=google/cloud/bigquery/dbapi/cursor.py
+[2026-11-22T05:21:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.2 files_done=7 resolved=2328 errors=0 current=tests/unit/test_external_config.py
+[2026-11-22T05:24:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.1 files_done=8 resolved=2637 errors=0 current=tests/unit/test_table.py
+[2026-11-22T05:47:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=54.9 files_done=9 resolved=4920 errors=0 current=tests/unit/job/test_base.py
+[2026-11-22T05:52:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=59.7 files_done=10 resolved=5398 errors=0 current=tests/unit/job/test_query.py
+[2026-11-22T05:58:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=65.5 files_done=11 resolved=6093 errors=0 current=tests/unit/job/test_load_config.py
+[2026-11-22T06:04:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=72.0 files_done=12 resolved=6572 errors=0 current=tests/unit/test_dataset.py
+[2026-11-22T06:11:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=78.2 files_done=13 resolved=7149 errors=0 current=tests/unit/test_client.py
+[2026-11-22T06:39:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=106.5 files_done=14 resolved=9726 errors=0 current=samples/notebooks/noxfile.py
+[2026-11-22T06:44:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=111.3 files_done=18 resolved=10132 errors=0 current=google/cloud/bigquery/_job_helpers.py
+[2026-11-22T06:45:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=112.5 files_done=19 resolved=10224 errors=0 current=google/cloud/bigquery/schema.py
+[2026-11-22T06:46:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=113.4 files_done=20 resolved=10332 errors=0 current=tests/unit/test_create_dataset.py
+[2026-11-22T06:47:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=114.7 files_done=21 resolved=10414 errors=0 current=tests/system/test_pandas.py
+[2026-11-22T06:50:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=118.2 files_done=22 resolved=10696 errors=0 current=tests/unit/test_query.py
+[2026-11-22T07:00:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=127.9 files_done=23 resolved=11574 errors=0 current=samples/load_table_uri_truncate_parquet.py
+[2026-11-22T07:04:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=132.1 files_done=27 resolved=11903 errors=0 current=tests/unit/test_table_pandas.py
+[2026-11-22T07:05:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=132.8 files_done=28 resolved=11962 errors=0 current=google/cloud/bigquery/job/base.py
+[2026-11-22T07:06:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=133.8 files_done=29 resolved=12086 errors=0 current=samples/client_load_partitioned_table.py
+[2026-11-22T07:09:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=136.3 files_done=31 resolved=12465 errors=0 current=tests/unit/test__helpers.py
+[2026-11-22T07:14:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=141.7 files_done=32 resolved=12916 errors=0 current=tests/unit/test_delete_dataset.py
+[2026-11-22T07:16:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=143.8 files_done=34 resolved=13091 errors=0 current=google/cloud/bigquery/_tqdm_helpers.py
+[2026-11-22T07:20:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=147.5 files_done=36 resolved=13426 errors=0 current=tests/unit/job/test_load.py
+[2026-11-22T07:23:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=150.8 files_done=37 resolved=13773 errors=0 current=tests/unit/test__job_helpers.py
+[2026-11-22T07:25:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=152.5 files_done=38 resolved=13896 errors=0 current=tests/unit/routine/test_external_runtime_options.py
+[2026-11-22T07:27:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=155.1 files_done=40 resolved=14120 errors=0 current=samples/magics/noxfile.py
+[2026-11-22T07:28:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=155.9 files_done=42 resolved=14229 errors=0 current=google/cloud/bigquery/_versions_helpers.py
+[2026-11-22T07:31:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=158.6 files_done=44 resolved=14393 errors=0 current=google/cloud/bigquery/_helpers.py
+[2026-11-22T07:32:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=159.7 files_done=45 resolved=14573 errors=0 current=tests/unit/test_encryption_configuration.py
+[2026-11-22T07:36:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=163.2 files_done=47 resolved=15001 errors=0 current=benchmark/benchmark.py
+[2026-11-22T07:36:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=163.9 files_done=48 resolved=15113 errors=0 current=tests/unit/test_standard_sql_types.py
+[2026-11-22T07:40:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=167.6 files_done=49 resolved=15295 errors=0 current=google/cloud/bigquery/magics/line_arg_parser/lexer.py
+[2026-11-22T07:41:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=169.1 files_done=51 resolved=15457 errors=0 current=samples/geography/noxfile.py
+[2026-11-22T07:44:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=171.2 files_done=53 resolved=15706 errors=0 current=google/cloud/bigquery/opentelemetry_tracing.py
+[2026-11-22T07:44:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=171.8 files_done=55 resolved=15802 errors=0 current=google/cloud/bigquery/magics/magics.py
+[2026-11-22T07:45:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=172.5 files_done=56 resolved=15875 errors=0 current=google/cloud/bigquery/dbapi/_helpers.py
+[2026-11-22T07:46:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=173.5 files_done=57 resolved=15978 errors=0 current=tests/unit/job/test_copy.py
+[2026-11-22T07:48:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=175.6 files_done=58 resolved=16134 errors=0 current=samples/load_table_clustered.py
+[2026-11-22T07:49:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=176.6 files_done=61 resolved=16250 errors=0 current=samples/snippets/manage_job_get.py
+[2026-11-22T07:51:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=178.2 files_done=63 resolved=16393 errors=0 current=google/cloud/bigquery_v2/types/standard_sql.py
+[2026-11-22T07:52:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=179.4 files_done=65 resolved=16499 errors=0 current=tests/unit/test_opentelemetry_tracing.py
+[2026-11-22T07:53:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=180.5 files_done=69 resolved=16657 errors=0 current=tests/unit/test__versions_helpers.py
+[2026-11-22T07:53:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=181.2 files_done=70 resolved=16709 errors=0 current=samples/browse_table_data.py
+[2026-11-22T07:55:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=182.8 files_done=72 resolved=16820 errors=0 current=tests/unit/test_dbapi_connection.py
+[2026-11-22T07:56:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=183.9 files_done=73 resolved=16918 errors=0 current=samples/geography/conftest.py
+[2026-11-22T07:57:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=184.8 files_done=78 resolved=17008 errors=0 current=tests/unit/test_list_models.py
+[2026-11-22T07:58:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=185.4 files_done=81 resolved=17060 errors=0 current=samples/snippets/conftest.py
+[2026-11-22T07:58:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=186.0 files_done=84 resolved=17135 errors=0 current=google/cloud/bigquery/_pandas_helpers.py
+[2026-11-22T08:00:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=187.3 files_done=85 resolved=17284 errors=0 current=google/cloud/bigquery/_pyarrow_helpers.py
+[2026-11-22T08:01:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=189.0 files_done=89 resolved=17482 errors=0 current=samples/query_no_cache.py
+[2026-11-22T08:02:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=189.6 files_done=91 resolved=17517 errors=0 current=samples/desktopapp/user_credentials.py
+[2026-11-22T08:03:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=190.3 files_done=94 resolved=17609 errors=0 current=samples/tests/test_client_query_destination_table_legacy.py
+[2026-11-22T08:04:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=191.5 files_done=98 resolved=17760 errors=0 current=tests/unit/test_list_jobs.py
+[2026-11-22T08:05:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=192.5 files_done=100 resolved=17841 errors=0 current=tests/unit/test_list_routines.py
+[2026-11-22T08:05:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=193.2 files_done=104 resolved=17888 errors=0 current=google/cloud/bigquery/dataset.py
+[2026-11-22T08:07:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=194.2 files_done=105 resolved=18088 errors=0 current=tests/system/conftest.py
+[2026-11-22T08:07:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=194.8 files_done=107 resolved=18130 errors=0 current=tests/unit/test__http.py
+[2026-11-22T08:09:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=196.4 files_done=110 resolved=18276 errors=0 current=google/cloud/bigquery/magics/line_arg_parser/visitors.py
+[2026-11-22T08:09:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=197.0 files_done=112 resolved=18337 errors=0 current=tests/unit/model/test_model.py
+[2026-11-22T08:10:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=197.5 files_done=113 resolved=18374 errors=0 current=samples/tests/test_update_dataset_default_table_expiration.py
+[2026-11-22T08:10:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=198.1 files_done=119 resolved=18439 errors=0 current=samples/snippets/revoke_dataset_access.py
+[2026-11-22T08:11:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=198.7 files_done=124 resolved=18489 errors=0 current=samples/tests/test_copy_table_multiple_source.py
+[2026-11-22T08:12:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=199.6 files_done=126 resolved=18543 errors=0 current=samples/snippets/create_table_external_data_configuration.py
+[2026-11-22T08:12:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=200.1 files_done=129 resolved=18627 errors=0 current=tests/unit/test_list_tables.py
+[2026-11-22T08:13:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=200.8 files_done=134 resolved=18689 errors=0 current=samples/create_dataset.py
+[2026-11-22T08:14:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=201.3 files_done=138 resolved=18760 errors=0 current=samples/query_external_sheets_permanent_table.py
+[2026-11-22T08:14:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=202.0 files_done=140 resolved=18806 errors=0 current=samples/get_routine.py
+[2026-11-22T08:15:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=202.6 files_done=144 resolved=18850 errors=0 current=google/cloud/bigquery/standard_sql.py
+[2026-11-22T08:16:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=203.2 files_done=145 resolved=18906 errors=0 current=samples/tests/test_client_query_relax_column.py
+[2026-11-22T08:16:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=203.7 files_done=150 resolved=18953 errors=0 current=tests/unit/model/test_model_reference.py
+[2026-11-22T08:17:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=204.4 files_done=159 resolved=19027 errors=0 current=tests/system/helpers.py
+[2026-11-22T08:17:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=205.0 files_done=167 resolved=19075 errors=0 current=samples/create_table.py
+[2026-11-22T08:18:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=205.5 files_done=172 resolved=19119 errors=0 current=tests/unit/test_format_options.py
+[2026-11-22T08:18:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=206.1 files_done=175 resolved=19152 errors=0 current=tests/system/test_list_rows.py
+[2026-11-22T08:19:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=206.8 files_done=179 resolved=19234 errors=0 current=tests/unit/_helpers/test_scalar_query_param_parser.py
+[2026-11-22T08:20:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=207.3 files_done=187 resolved=19287 errors=0 current=tests/unit/routine/test_remote_function_options.py
+[2026-11-22T08:20:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=207.9 files_done=193 resolved=19327 errors=0 current=google/cloud/bigquery_v2/types/table_reference.py
+[2026-11-22T08:21:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=208.4 files_done=200 resolved=19375 errors=0 current=google/cloud/bigquery/encryption_configuration.py
+[2026-11-22T08:21:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=208.9 files_done=210 resolved=19424 errors=0 current=samples/list_datasets_by_label.py
+[2026-11-22T08:22:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=209.4 files_done=217 resolved=19496 errors=0 current=samples/create_job.py
+[2026-11-22T08:22:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=210.0 files_done=220 resolved=19530 errors=0 current=samples/list_tables.py
+[2026-11-22T08:23:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=210.5 files_done=231 resolved=19574 errors=0 current=samples/tests/test_query_to_arrow.py
+[2026-11-22T08:23:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=211.0 files_done=240 resolved=19608 errors=0 current=samples/snippets/simple_app.py
+[2026-11-22T08:24:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=211.5 files_done=249 resolved=19648 errors=0 current=samples/update_model.py
+[2026-11-22T08:24:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=212.0 files_done=258 resolved=19687 errors=0 current=samples/load_table_uri_autodetect_csv.py
+[2026-11-22T08:25:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=212.6 files_done=266 resolved=19729 errors=0 current=samples/snippets/create_table_external_hive_partitioned_test.py
+[2026-11-22T08:25:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=213.1 files_done=279 resolved=19779 errors=0 current=samples/snippets/delete_label_table.py
+[2026-11-22T08:26:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=213.7 files_done=294 resolved=19837 errors=0 current=samples/client_query_w_array_params.py
+[2026-11-22T08:27:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=214.2 files_done=306 resolved=19888 errors=0 current=samples/client_query_destination_table_clustered.py
+[2026-11-22T08:27:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=214.8 files_done=315 resolved=19925 errors=0 current=samples/tests/test_query_script.py
+[2026-11-22T08:28:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=215.3 files_done=331 resolved=19962 errors=0 current=samples/tests/test_create_job.py
+[2026-11-22T08:28:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=215.8 files_done=343 resolved=20001 errors=0 current=samples/tests/test_copy_table_cmek.py
+[2026-11-22T08:29:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=216.3 files_done=363 resolved=20023 errors=0 current=.kokoro/trampoline_v2.sh
+[2026-11-22T08:29:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=217.1 files_done=364 resolved=20060 errors=0 current=.kokoro/populate-secrets.sh
+[2026-11-22T08:30:03Z] [iter=1] Target type resolved target_type=call_site resolved=20066 errors=0 secs=12927 mem_mb=1057 MB
+[2026-11-22T08:30:03Z] [iter=1] Resolving target type target_type=import_statement count=2970
+[2026-11-22T08:30:24Z] [iter=1] Target type resolved target_type=import_statement resolved=643 errors=0 secs=21 mem_mb=1060 MB
+[2026-11-22T08:30:24Z] [iter=1] Resolving target type target_type=extends_clause count=156
+[2026-11-22T08:30:25Z] [iter=1] HEARTBEAT target_type=extends_clause elapsed_min=217.6 files_done=0 resolved=0 errors=0 current=google/cloud/bigquery/routine/routine.py
+[2026-11-22T08:30:29Z] [iter=1] Target type resolved target_type=extends_clause resolved=154 errors=0 secs=4 mem_mb=1060 MB
+[2026-11-22T10:49:30Z] [iter=1] Step 5: Writing final enrichment file triples=285071
+[2026-11-22T10:49:34Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/e8184fa38563b8e9aef265ec64836a931e9e89cd.nq.gz size_kb=6668
+[2026-11-22T10:49:34Z] [iter=1] PHASE END: enrich elapsed_s=21404 elapsed_min=356.7 total_triples=285071

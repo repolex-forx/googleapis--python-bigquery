@@ -1018,6 +1018,338 @@
       ],
       "ast": [
         "aggregate/ast/e8184fa38563b8e9aef265ec64836a931e9e89cd/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/e8184fa38563b8e9aef265ec64836a931e9e89cd.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "google-api-core",
+          "ecosystem": "PYPI",
+          "version": "2.11.1",
+          "githubOrg": "googleapis",
+          "githubRepo": "google-cloud-python",
+          "githubUrl": "https://github.com/googleapis/google-cloud-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "google-auth",
+          "ecosystem": "PYPI",
+          "version": "2.14.1",
+          "githubOrg": "googleapis",
+          "githubRepo": "google-auth-library-python",
+          "githubCommit": "bf95dfc17c15e9e6b71fbfa03c90ab8eb18ade43",
+          "githubTag": "v2.14.1",
+          "githubUrl": "https://github.com/googleapis/google-auth-library-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "google-cloud-core",
+          "ecosystem": "PYPI",
+          "version": "2.4.1",
+          "githubOrg": "googleapis",
+          "githubRepo": "google-cloud-python",
+          "githubUrl": "https://github.com/googleapis/google-cloud-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "google-resumable-media",
+          "ecosystem": "PYPI",
+          "version": "2.0.0",
+          "githubOrg": "googleapis",
+          "githubRepo": "google-cloud-python",
+          "githubUrl": "https://github.com/googleapis/google-cloud-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "packaging",
+          "ecosystem": "PYPI",
+          "version": "24.2.0",
+          "githubOrg": "pypa",
+          "githubRepo": "packaging",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "python-dateutil",
+          "ecosystem": "PYPI",
+          "version": "2.8.2",
+          "githubOrg": "dateutil",
+          "githubRepo": "dateutil",
+          "githubCommit": "6b035517571e63b6a63a493740c5506ec1e5da44",
+          "githubTag": "2.8.2",
+          "githubUrl": "https://github.com/dateutil/dateutil",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.21.0",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "5a1e738ea9c399c3f59977f2f98b083986d6037a",
+          "githubTag": "v2.21.0",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "google-cloud-bigquery-storage",
+          "ecosystem": "PYPI",
+          "version": "2.18.0",
+          "githubOrg": "googleapis",
+          "githubRepo": "google-cloud-python",
+          "githubUrl": "https://github.com/googleapis/google-cloud-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "grpcio",
+          "ecosystem": "PYPI",
+          "version": "1.47.0",
+          "githubOrg": "grpc",
+          "githubRepo": "grpc",
+          "githubCommit": "2717aa8c9b768de99c811628af4e8c30d6c2da4f",
+          "githubTag": "v1.47.0",
+          "githubUrl": "https://github.com/grpc/grpc",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pyarrow",
+          "ecosystem": "PYPI",
+          "version": "4.0.0",
+          "githubOrg": "apache",
+          "githubRepo": "arrow",
+          "githubUrl": "https://github.com/apache/arrow",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pandas",
+          "ecosystem": "PYPI",
+          "version": "1.3.0",
+          "githubOrg": "pandas-dev",
+          "githubRepo": "pandas",
+          "githubCommit": "f00ed8f47020034e752baf0250483053340971b0",
+          "githubTag": "v1.3.0",
+          "githubUrl": "https://github.com/pandas-dev/pandas",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pandas-gbq",
+          "ecosystem": "PYPI",
+          "version": "0.26.1",
+          "githubOrg": "googleapis",
+          "githubRepo": "google-cloud-python",
+          "githubCommit": "ea5245ad27e777c654448a259a9fa5f6bf5d758e",
+          "githubTag": "0.26.1",
+          "githubUrl": "https://github.com/googleapis/google-cloud-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "db-dtypes",
+          "ecosystem": "PYPI",
+          "version": "1.0.4",
+          "githubOrg": "googleapis",
+          "githubRepo": "google-cloud-python",
+          "githubUrl": "https://github.com/googleapis/google-cloud-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ipykernel",
+          "ecosystem": "PYPI",
+          "version": "6.2.0",
+          "githubOrg": "ipython",
+          "githubRepo": "ipykernel",
+          "githubCommit": "c36de65d2f275e0ba42f5dc2a7bb619bea4ab02d",
+          "githubTag": "6.2.0",
+          "githubUrl": "https://github.com/ipython/ipykernel",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "geopandas",
+          "ecosystem": "PYPI",
+          "version": "0.9.0",
+          "githubOrg": "geopandas",
+          "githubRepo": "geopandas",
+          "githubCommit": "ec4c6805d1182f846b9659345a5e66fa7c7afac7",
+          "githubTag": "v0.9.0",
+          "githubUrl": "https://github.com/geopandas/geopandas",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "shapely",
+          "ecosystem": "PYPI",
+          "version": "1.8.4",
+          "githubOrg": "shapely",
+          "githubRepo": "shapely",
+          "githubCommit": "7c63580a44af8d1db7b5e9805c659aeebddaf8d3",
+          "githubTag": "1.8.4",
+          "githubUrl": "https://github.com/shapely/shapely",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ipython",
+          "ecosystem": "PYPI",
+          "version": "7.23.1",
+          "githubOrg": "ipython",
+          "githubRepo": "ipython",
+          "githubCommit": "9ca5c4454983faa141a5c27140470bccff82c937",
+          "githubTag": "7.23.1",
+          "githubUrl": "https://github.com/ipython/ipython",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "bigquery-magics",
+          "ecosystem": "PYPI",
+          "version": "0.6.0",
+          "githubOrg": "googleapis",
+          "githubRepo": "google-cloud-python",
+          "githubCommit": "3e86aaed3c7e192a17d9b790f90a41cc2b7baa6a",
+          "githubTag": "0.6.0",
+          "githubUrl": "https://github.com/googleapis/google-cloud-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "matplotlib",
+          "ecosystem": "PYPI",
+          "version": "3.7.1",
+          "githubOrg": "matplotlib",
+          "githubRepo": "matplotlib",
+          "githubCommit": "b3bd929cf07ea35479fded8f739126ccc39edd6d",
+          "githubTag": "v3.7.1",
+          "githubUrl": "https://github.com/matplotlib/matplotlib",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "tqdm",
+          "ecosystem": "PYPI",
+          "version": "4.23.4",
+          "githubOrg": "tqdm",
+          "githubRepo": "tqdm",
+          "githubCommit": "19cd7d735a235177b7f8a4413391226c4aac0c8d",
+          "githubTag": "v4.23.4",
+          "githubUrl": "https://github.com/tqdm/tqdm",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "opentelemetry-api",
+          "ecosystem": "PYPI",
+          "version": "1.1.0",
+          "githubOrg": "open-telemetry",
+          "githubRepo": "opentelemetry-python",
+          "githubCommit": "7cfce07748dff7f30e74dff50a231875bb106df6",
+          "githubTag": "v1.1.0",
+          "githubUrl": "https://github.com/open-telemetry/opentelemetry-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "opentelemetry-sdk",
+          "ecosystem": "PYPI",
+          "version": "1.1.0",
+          "githubOrg": "open-telemetry",
+          "githubRepo": "opentelemetry-python",
+          "githubCommit": "7cfce07748dff7f30e74dff50a231875bb106df6",
+          "githubTag": "v1.1.0",
+          "githubUrl": "https://github.com/open-telemetry/opentelemetry-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "opentelemetry-instrumentation",
+          "ecosystem": "PYPI",
+          "version": "0.20",
+          "githubOrg": "open-telemetry",
+          "githubRepo": "opentelemetry-python-contrib",
+          "githubUrl": "https://github.com/open-telemetry/opentelemetry-python-contrib",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "proto-plus",
+          "ecosystem": "PYPI",
+          "version": "1.22.3",
+          "githubOrg": "googleapis",
+          "githubRepo": "google-cloud-python",
+          "githubUrl": "https://github.com/googleapis/google-cloud-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "google-cloud-bigquery",
+          "ecosystem": "PYPI",
+          "version": "3.47.0",
+          "githubOrg": "googleapis",
+          "githubRepo": "google-cloud-python",
+          "githubUrl": "https://github.com/googleapis/google-cloud-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "psutil",
+          "ecosystem": "PYPI",
+          "version": "7.2.2",
+          "githubOrg": "giampaolo",
+          "githubRepo": "psutil",
+          "githubCommit": "9eea97dd6f1d16ea33f5144c8925f1ce7a0688e1",
+          "githubTag": "v7.2.2",
+          "githubUrl": "https://github.com/giampaolo/psutil",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/psutil/__init__.py"
+        },
+        {
+          "packageName": "importlib-metadata",
+          "ecosystem": "PYPI",
+          "version": "10.2.0",
+          "githubOrg": "python",
+          "githubRepo": "importlib_metadata",
+          "githubCommit": "7e35ac1e6f23e92c66279837b17ce3847434c846",
+          "githubTag": "v10.2.0",
+          "githubUrl": "https://github.com/python/importlib_metadata",
+          "source": "lsp",
+          "raw_name": "importlib_metadata",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/importlib_metadata/__init__.py"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.5.5",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+          "githubTag": "v2.5.5",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/numpy/__init__.py"
+        },
+        {
+          "packageName": "jinja2",
+          "ecosystem": "PYPI",
+          "version": "3.1.6",
+          "githubOrg": "pallets",
+          "githubRepo": "jinja",
+          "githubCommit": "15206881c006c79667fe5154fe80c01c65410679",
+          "githubTag": "3.1.6",
+          "githubUrl": "https://github.com/pallets/jinja",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/jinja2/environment.py"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        },
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.16.0",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+          "githubTag": "4.16.0",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "lsp",
+          "raw_name": "typing_extensions.py",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/typing_extensions.py"
+        }
       ]
     }
   ],
