@@ -36,10 +36,16 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
-│   │   └── ca965f25fa3df5915d8763d277bb014a3de124cd
+│   │   ├── ca965f25fa3df5915d8763d277bb014a3de124cd
+│   │   │   └── chunk-001.nq.gz
+│   │   └── e8184fa38563b8e9aef265ec64836a931e9e89cd
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── e8184fa38563b8e9aef265ec64836a931e9e89cd.nq.gz
 │   └── repolex
-│       └── ca965f25fa3df5915d8763d277bb014a3de124cd
+│       ├── ca965f25fa3df5915d8763d277bb014a3de124cd
+│       │   └── chunk-001.nq.gz
+│       └── e8184fa38563b8e9aef265ec64836a931e9e89cd
 │           └── chunk-001.nq.gz
 └── blob
     ├── 0080152373d5d919b6d310d21d1be23bcf81a920.nq.gz
@@ -116,6 +122,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── 22ccee9717332488ada6bef462eab9f4f6056b1e.nq.gz
     ├── 231d5a142d1354f70efa03186d87f1a357861740.nq.gz
     ├── 23d8288b731070d059fdddeae9f32ec7505b54ad.nq.gz
+    ├── 23ed9257ddc4a9d48d565ca1d868ab067c3bae96.nq.gz
     ├── 24ba2fa997c016546e459ddf1a10f06c26f5cc90.nq.gz
     ├── 24df5446d712e0c7a4926ad24794b200abb9cce4.nq.gz
     ├── 24f3e0dbe1668c4c6ef5d9a8c29443901e9ead27.nq.gz
@@ -235,13 +242,9 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── 6321aea35101db90f32a020afc7ed41308a29a57.nq.gz
     ├── 6365857f33c6c4c98eb292cf87dcfa000b301fb9.nq.gz
     ├── 642c18d15c114dfa9165ed918fe1ec4ab0768604.nq.gz
-    ├── 64d8b1451e79bf10927e5d0e1e8456885bac68ec.nq.gz
-    ├── 64ec39b7603cef0f9b850397f94ebf2d85ebe50e.nq.gz
-    ├── 6598baee77e10ced18aea18c908f8eaa38f1c5d0.nq.gz
-    ├── 65ceeeb5e4904afb48a75df5c91c7985626a9885.nq.gz
-    └── 670eb7ccfaf84813786059d5966f35f34fda8f8a.nq.gz
+    └── 64d8b1451e79bf10927e5d0e1e8456885bac68ec.nq.gz
 
-7 directories, 200 files
+10 directories, 200 files
 ```
 
 | Directory | What it contains |
@@ -262,4 +265,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [googleapis/python-bigquery](https://github.com/googleapis/python-bigquery)
 
 ---
-*Parsed on 2026-11-06 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-22 by [repolex](https://repolex.ai)*
